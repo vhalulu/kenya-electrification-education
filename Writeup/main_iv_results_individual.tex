@@ -1,0 +1,38 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & years\_education & Electricity & \multicolumn{2}{c}{years\_education}\\
+   Model:                     & (1)             & (2)             & (3)             & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   Electricity                & 0.8188$^{***}$  &                 &                 &   \\   
+                              & (0.0279)        &                 &                 &   \\   
+   year $=$ 2022              & 0.5955$^{***}$  & 0.2361$^{***}$  & 0.7880$^{***}$  & 0.1303\\   
+                              & (0.0286)        & (0.0085)        & (0.0282)        & (0.1152)\\   
+   Urban                      & 0.3697$^{***}$  & 0.4116$^{***}$  & 0.6850$^{***}$  & -0.4615$^{**}$\\   
+                              & (0.0311)        & (0.0113)        & (0.0328)        & (0.2086)\\   
+   Age                        & 0.5645$^{***}$  & 0.0037$^{***}$  & 0.5674$^{***}$  & 0.5572$^{***}$\\   
+                              & (0.0030)        & (0.0002)        & (0.0030)        & (0.0036)\\   
+   Female                     & -0.0446$^{***}$ & 0.0102$^{***}$  & -0.0373$^{**}$  & -0.0656$^{***}$\\   
+                              & (0.0165)        & (0.0020)        & (0.0165)        & (0.0179)\\   
+   Log distance to 132kV line &                 & -0.0398$^{***}$ & -0.1106$^{***}$ &   \\   
+                              &                 & (0.0055)        & (0.0180)        &   \\   
+   Electricity (IV)           &                 &                 &                 & 2.786$^{***}$\\   
+                              &                 &                 &                 & (0.4890)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   county\_id                 & Yes             & Yes             & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations               & 153,687         & 153,802         & 153,728         & 153,687\\  
+   R$^2$                      & 0.63946         & 0.35492         & 0.63499         & 0.63498\\  
+   Within R$^2$               & 0.61376         & 0.26215         & 0.60897         & 0.60896\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Clustered (cluster\_id) standard-errors in parentheses}}\\
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+

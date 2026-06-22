@@ -1,0 +1,20 @@
+# Data (DHS cannot be redistributed)
+Data/
+# R session artifacts
+.RData
+.Rhistory
+.Rproj.user/
+
+# Messy folders
+Old Scripts/
+Alternative Projects For Future/
+Regression Discontinuity/
+Others/
+Outputs/
+Results/
+Presentations/
+project_electrification/
+
+# OS
+.DS_Store
+Thumbs.db

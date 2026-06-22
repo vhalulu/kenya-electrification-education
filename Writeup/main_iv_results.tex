@@ -1,0 +1,32 @@
+
+\begingroup
+\centering
+\begin{tabular}{lcccc}
+   \tabularnewline \midrule \midrule
+   Dependent Variables: & mean\_years\_edu & pct\_electricity & \multicolumn{2}{c}{mean\_years\_edu}\\
+   Model:            & (1)             & (2)            & (3)             & (4)\\  
+   \midrule
+   \emph{Variables}\\
+   pct\_electricity  & 0.0207$^{***}$  &                &                 & 0.0357$^{***}$\\   
+                     & (0.0012)        &                &                 & (0.0100)\\   
+   year $=$ 2022     & 0.5156$^{***}$  & 25.18$^{***}$  & 1.038$^{***}$   & 0.1384\\   
+                     & (0.0523)        & (1.053)        & (0.0510)        & (0.2543)\\   
+   urban             & -0.4855$^{***}$ & -43.00$^{***}$ & -1.363$^{***}$  & 0.1729\\   
+                     & (0.0630)        & (1.612)        & (0.0835)        & (0.4423)\\   
+   log\_dist         &                 & -3.696$^{***}$ & -0.1320$^{***}$ &   \\   
+                     &                 & (0.7418)       & (0.0406)        &   \\   
+   \midrule
+   \emph{Fixed-effects}\\
+   county\_id        & Yes             & Yes            & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   Observations      & 3,273           & 3,273          & 3,273           & 3,273\\  
+   R$^2$             & 0.63374         & 0.61811        & 0.56924         & 0.56924\\  
+   Within R$^2$      & 0.41097         & 0.50637        & 0.30725         & 0.30725\\  
+   \midrule \midrule
+   \multicolumn{5}{l}{\emph{Clustered (subcounty\_id) standard-errors in parentheses}}\\
+   \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+\end{tabular}
+\par\endgroup
+
+
